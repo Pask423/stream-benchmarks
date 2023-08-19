@@ -1,0 +1,26 @@
+Label,Input Size,Threads,Mode,Cnt,Score,Score Mean Error,Units
+ForkJoinBenchmark.bench, 100,7,AverageTime,20,0.07982725253628796,8.754284106785887E-5,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_8, 100,8,AverageTime,20,0.09028133723793981,7.061205581581225E-5,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_32, 100,32,AverageTime,20,0.09211916351055863,7.805498283154332E-5,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_16, 100,16,AverageTime,20,0.09266741759143075,1.0160791966625365E-4,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_4, 100,4,AverageTime,20,0.1075482344674306,7.622478275943765E-4,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_8, 1000,8,AverageTime,20,0.46714268794518327,0.0024538530893683476,ms/op
+ForkJoinBenchmark.bench, 1000,7,AverageTime,20,0.48067743170242244,0.0035216527928353166,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_16, 1000,16,AverageTime,20,0.4817517289811025,0.0010268479184444806,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_32, 1000,32,AverageTime,20,0.5539455847272349,0.003466298058134736,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_4, 1000,4,AverageTime,20,0.5807921479916446,0.002134502554302585,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_16, 10000,16,AverageTime,20,3.842316387950291,0.015818522752851158,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_8, 10000,8,AverageTime,20,3.995770979114249,0.007647710622654894,ms/op
+ForkJoinBenchmark.bench, 10000,7,AverageTime,20,4.064702837468684,0.005639860274321618,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_32, 10000,32,AverageTime,20,4.075139643630421,0.009613421445014928,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_4, 10000,4,AverageTime,20,4.896047226725805,0.024612911031498562,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_16, 100000,16,AverageTime,20,35.47845230766478,0.05171771635442866,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_32, 100000,32,AverageTime,20,35.97891547879613,0.06404111987856431,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_8, 100000,8,AverageTime,20,36.119084237847204,0.058560526133224176,ms/op
+ForkJoinBenchmark.bench, 100000,7,AverageTime,20,36.50379941704986,0.19063164551743003,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_4, 100000,4,AverageTime,20,43.27232793712842,0.29131522814000355,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_16, 1000000,16,AverageTime,20,339.42900056833327,0.5595139899928961,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_32, 1000000,32,AverageTime,20,348.023538175862,0.3145504383374977,ms/op
+ForkJoinBenchmark.bench, 1000000,7,AverageTime,20,356.38434929390394,0.4717664356914543,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_8, 1000000,8,AverageTime,20,365.31608722499993,0.520158662872049,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_4, 1000000,4,AverageTime,20,382.7628241997151,2.3060257148287224,ms/op

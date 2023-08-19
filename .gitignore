@@ -1,9 +1,3 @@
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.gradle
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+/target
 .idea
 *.iml

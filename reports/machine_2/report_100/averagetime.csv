@@ -1,0 +1,12 @@
+Label,Input Size,Threads,Mode,Cnt,Score,Score Mean Error,Units
+ClassicStreamBenchmark.bench_defaultParallelStream, 100,7,AverageTime,20,0.06615200252301245,4.264455689409618E-5,ms/op
+ClassicStreamBenchmark.bench_parallelStreamWithCustomForkJoinPool_8, 100,8,AverageTime,20,0.0774369771002374,6.333835330487147E-5,ms/op
+ForkJoinBenchmark.bench, 100,7,AverageTime,20,0.08176476248791713,6.119106590414418E-5,ms/op
+ClassicStreamBenchmark.bench_parallelStreamWithCustomForkJoinPool_4, 100,4,AverageTime,20,0.08253887579446759,9.271269905221058E-4,ms/op
+ClassicStreamBenchmark.bench_parallelStreamWithCustomForkJoinPool_16, 100,16,AverageTime,20,0.08396685458591642,2.141353634429905E-4,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_8, 100,8,AverageTime,20,0.09147660907420571,1.4326135040710708E-4,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_16, 100,16,AverageTime,20,0.09215668506176192,5.642881215335364E-5,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_32, 100,32,AverageTime,20,0.09424558633897126,8.347537538788116E-5,ms/op
+ForkJoinBenchmark.bench_customForkJoinPool_4, 100,4,AverageTime,20,0.10243119359029755,6.500003080774976E-4,ms/op
+ClassicStreamBenchmark.bench_sequential, 100,1,AverageTime,20,0.11069753984769244,1.5475530632788915E-4,ms/op
+ClassicStreamBenchmark.bench_parallelStreamWithCustomForkJoinPool_32, 100,32,AverageTime,20,0.23338603910486283,0.0076775282153151315,ms/op
